@@ -1,0 +1,20 @@
+{
+  "name": "pwtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.16.1",
+    "@types/faker": "^6.6.9",
+    "playwright": "^1.16.1"
+  },
+  "dependencies": {
+    "expect": "^28.1.3"
+  }
+}

@@ -11,7 +11,7 @@ const { chromium } = require("playwright");
     await page.goto('https://react-redux.realworld.io/#/login')
 
     //Ações na tela - Login
-    await page.fill('input[type = "email"]', 'felipe.lourencoo@hotmail.com')    /
+    await page.fill('input[type = "email"]', 'felipe.lourencoo@hotmail.com')
     await page.press('input[type = "email"]', 'Tab')                            
     await page.type('input[type = "password"]','Jetta@2012')                   
     await page.click('form >> "Sign in"') 
